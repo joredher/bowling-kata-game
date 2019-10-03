@@ -34,5 +34,7 @@
         "webpack": "^4.40.2",
         "webpack-cli": "^3.3.9"
     },
-    "dependencies": {}
+    "dependencies": {
+        "braces": ">=2.3.1"
+    }
 }
