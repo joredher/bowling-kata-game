@@ -1,0 +1,38 @@
+{
+    "name": "game-bowling-kata",
+    "version": "1.0.0",
+    "description": "se inicia proyecto para primer coding  dojo YopalDevs",
+    "main": "game.js",
+    "scripts": {
+        "start": "webpack game.js --mode development --watch",
+        "test": "jest --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joredher/bowling-kata-game.git"
+    },
+    "keywords": [
+        "kata",
+        "tdd",
+        "uncle",
+        "bob",
+        "bowling",
+        "game",
+        "bowl"
+    ],
+    "author": "Eduardo Hernández",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/joredher/bowling-game-kata/issues"
+    },
+    "homepage": "https://github.com/joredher/bowling-game-kata#readme",
+    "devDependencies": {
+        "@babel/core": "^7.6.2",
+        "@babel/preset-env": "^7.6.2",
+        "babel-cli": "^6.26.0",
+        "jest": "^24.9.0",
+        "webpack": "^4.40.2",
+        "webpack-cli": "^3.3.9"
+    },
+    "dependencies": {}
+}
